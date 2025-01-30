@@ -1,7 +1,9 @@
+
 # **Portfolio**
 
 ## Description
-**Portfolio** est une application web interactive créée avec **React** et **Vite**, permettant de partager mes projets, mon CV et des informations personnelles. L'application présente mes réalisations professionnelles, avec des liens vers mes projets et un aperçu de mon parcours.
+**Portfolio** est une application web interactive créée avec **React** et **Vite**, permettant de partager mes projets,
+mon CV et des informations . L'application présente mes réalisations , avec des liens vers mes projets et un aperçu de mon parcours.
 
 ---
 
@@ -19,31 +21,36 @@
 1. **Cloner le projet** :
    ```bash
    git clone https://github.com/elisia-kba/portfolio.git
-Installer les dépendances :
+   ```
 
-bash
-Copier
-Modifier
-npm install
-Démarrer l'application :
+2. **Installer les dépendances** :
+   ```bash
+   npm install
+   ```
 
-bash
-Copier
-Modifier
-npm run dev
-Ouvrir l'application dans un navigateur :
+3. **Démarrer l'application** :
+   ```bash
+   npm run dev
+   ```
 
-arduino
-Copier
-Modifier
-http://localhost:3000
-Structure du projet
-App.jsx : Composant principal de l'application, incluant la navigation et la gestion des pages.
-Projects.jsx : Affiche la liste des projets avec des liens vers leurs pages respectives.
-CV.jsx : Affiche mon CV interactif et propose un téléchargement du fichier PDF.
-services/ : Dossier contenant des fichiers pour gérer les données (projets, informations personnelles, etc.).
-Auteur
-Elisia KOUMBA
+4. **Ouvrir l'application dans un navigateur** :
+   Accédez à l'URL suivante dans votre navigateur :
+   ```
+   http://localhost:3000
+   ```
 
-Mon GitHub
+---
 
+## Structure du projet
+
+- **App.jsx** : Composant principal de l'application, incluant la navigation et la gestion des pages.
+- **Projects.jsx** : Affiche la liste des projets avec des liens vers leurs pages respectives.
+
+
+---
+
+## Auteur
+
+- **Elisia KOUMBA**
+
+- [Mon GitHub](https://github.com/elisia-kba)
