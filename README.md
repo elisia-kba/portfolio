@@ -44,7 +44,7 @@ mon CV et des informations . L'application présente mes réalisations , avec de
 ## Structure du projet
 
 - **App.jsx** : Composant principal de l'application, incluant la navigation et la gestion des pages.
-- **Projects.jsx** : Affiche la liste des projets avec des liens vers leurs pages respectives.
+- **ProjectsCard.jsx** : Affiche la liste des projets avec des liens vers leurs pages respectives.
 
 
 ---
