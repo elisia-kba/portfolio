@@ -1,50 +1,56 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# **Portfolio**
 
-Currently, two official plugins are available:
+## Description
+**Portfolio** est une application web interactive créée avec **React** et **Vite**, permettant de partager mes projets,
+mon CV et des informations . L'application présente mes réalisations , avec des liens vers mes projets et un aperçu de mon parcours.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Fonctionnalités
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Affichage des projets avec des liens vers les sites externes ou des démos.
+- Page de CV interactive avec téléchargement du fichier en format PDF.
+- Navigation fluide et rapide grâce à Vite et React Router.
+- Interface responsive pour une navigation optimale sur tous les appareils.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Comment lancer le projet ?
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. **Cloner le projet** :
+   ```bash
+   git clone https://github.com/elisia-kba/portfolio.git
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. **Installer les dépendances** :
+   ```bash
+   npm install
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. **Démarrer l'application** :
+   ```bash
+   npm run dev
+   ```
+
+4. **Ouvrir l'application dans un navigateur** :
+   Accédez à l'URL suivante dans votre navigateur :
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## Structure du projet
+
+- **App.jsx** : Composant principal de l'application, incluant la navigation et la gestion des pages.
+- **ProjectsCard.jsx** : Affiche la liste des projets avec des liens vers leurs pages respectives.
+
+
+---
+
+## Auteur
+
+- **Elisia KOUMBA**
+
+- [Mon GitHub](https://github.com/elisia-kba)
