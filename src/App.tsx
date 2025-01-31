@@ -11,7 +11,7 @@ const App: React.FC = () => {
 
   const handleNavigation = (section: Section) => {
     if (section === 'CV') {
-      window.location.href = '/CV-elisia_koumba.pdf';
+      window.location.href = '/cv-elisia-koumba.pdf';
     } else {
       setActiveSection(section);
     }

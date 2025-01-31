@@ -17,10 +17,10 @@ nav {
   backdrop-filter: blur(10px);
   border-bottom: 1px solid #C084FC;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  padding-top: 1%;
   border-radius: 0 0 20px 20px;
   box-sizing: border-box;
   display: flex;
+  align-items: center;
 }
 
 .nav-container {
@@ -46,6 +46,8 @@ nav .nav-buttons {
   gap: 16px;
   margin-left: auto;
   margin-right: 5%;
+  margin-bottom: 2%;
+
 
 }
 
