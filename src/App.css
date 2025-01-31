@@ -127,7 +127,7 @@ section {
   padding: 8px 24px;
   background: linear-gradient(to right, #D946EF, #7C3AED);
   color: white;
-  font-size: clamp(1rem, 1.5vw, 2.5rem);
+  font-size: clamp(1rem, 1.30vw, 2rem);
   font-weight: 500;
   border-radius: 9999px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
