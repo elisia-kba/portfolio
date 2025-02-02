@@ -79,11 +79,11 @@ nav .nav-buttons .active {
 
 nav .nav-buttons .inactive {
   color: #4B5563;
-  background: transparent;
+  background-color: #E5D9FF;
 }
 
 nav .nav-buttons button:hover {
-  background-color: #E5D9FF;
+  background-color: #c6c4cb;
 }
 @media (max-width: 600px) {
   .nav-container {

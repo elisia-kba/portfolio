@@ -11,7 +11,7 @@ export const projects: Project[] = [
   },
   {
     title: "Advanced Wars",
-    description: "La reproduction du jeu Advance Wars",
+    description: "Ce projet est la reproduction du jeu Advance Wars, il a été réalisé en Java avec l'interface graphique Swing.",
     technologies: ["Java", "Swing"],
     imageUrl: "/advanced-wars-app.png",
     githubUrl: "https://github.com/elisia-kba/projet_AW"
@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     title: "Film list",
     description: "Film List App est une petite application React qui permet de créer et gérer une liste de films. Elle contient également une page 'À propos' pour afficher des informations sur l'auteur.",
-    technologies: ["React", "TypeScript", "HtML", "CSS"],
+    technologies: ["React", "TypeScript", "HTML", "CSS"],
     imageUrl: "/film-app.png",
     githubUrl:"https://github.com/elisia-kba/film-list-app",
     liveUrl: "https://film-app.elisiakoumba.fr",
