@@ -144,16 +144,6 @@ project-card .img-container {
   }
 }
 
-@media (max-width: 480px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .project-card-wrapper:hover {
-    transform: translateY(-4px);
-    scale: 1.01;
-  }
-}
 
 footer {
   padding: 32px 16px;
