@@ -14,11 +14,13 @@ export const ProjectCard: React.FC<Project> = ({
     <div className="project-card">
       {imageUrl && (
         <div className="img-container">
-          <img
-            src={imageUrl}
-            alt={title}
-            className="project-card-img"
-          />
+          <a href={liveUrl || githubUrl} target="_blank" rel="noopener noreferrer">
+            <img
+              src={imageUrl}
+              alt={title}
+              className="project-card-img"
+            />
+          </a>
         </div>
       )}
       <div className="project-card-content">

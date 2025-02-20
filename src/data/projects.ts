@@ -32,4 +32,12 @@ export const projects: Project[] = [
     githubUrl:"https://github.com/elisia-kba/film-list-app",
     liveUrl: "https://film-app.elisiakoumba.fr",
   },
+  {
+    title: "Mastermind",
+    description: "J'ai développé une version web du célèbre jeu Mastermind en utilisant Python avec le framework Flask. Le jeu permet aux utilisateurs de jouer au Mastermind directement dans leur navigateur avec une interface moderne et intuitive.",
+    technologies: ["Python","Flask", "JavaScript", "HTML", "CSS"],
+    imageUrl: "/mastermind-app.png",
+    githubUrl:"https://github.com/elisia-kba/mastermind",
+    liveUrl: "https://mastermind.elisiakoumba.fr/",
+  },
 ];

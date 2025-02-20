@@ -85,7 +85,7 @@ nav .nav-buttons .inactive {
 nav .nav-buttons button:hover {
   background-color: #c6c4cb;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .nav-container {
     justify-content: space-between;
     gap: 15px;
@@ -94,6 +94,7 @@ nav .nav-buttons button:hover {
   nav .nav-buttons {
     justify-content: center;
   }
+  
 }
 
 main {
@@ -161,6 +162,7 @@ section {
   font-weight: bold;
   margin-bottom: 24px;
   background: linear-gradient(to right, #D946EF, #7C3AED);
+
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
