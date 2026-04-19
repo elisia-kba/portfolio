@@ -2,42 +2,21 @@ import { Project } from '../types';
 
 export const projects: Project[] = [
   {
-    title: "Todo App",
-    description: "Todo List App est une application Vue.js permettant de créer, gérer et filtrer des tâches. Vous pouvez ajouter des tâches avec une description et une date, les marquer comme terminées, les modifier, ou les supprimer. (En cours de développement)",
-    technologies: ["Vue.js", "TypeScript", "CSS"],
-    imageUrl: "/todos-list-app.png",
-    githubUrl: "https://github.com/elisia-kba/ToDoList",
-    liveUrl: "https://todo.elisiakoumba.fr"
+    title: "BingoLive",
+    description: "Application web de loto en ligne avec gestion de parties en temps réel.",
+    technologies: ["TypeScript", "React", "Next.js", "MySQL", "Docker"],
   },
   {
-    title: "Advanced Wars",
-    description: "Ce projet est la reproduction du jeu Advance Wars, il a été réalisé en Java avec l'interface graphique Swing.",
-    technologies: ["Java", "Swing"],
-    imageUrl: "/advanced-wars-app.png",
-    githubUrl: "https://github.com/elisia-kba/projet_AW"
-  },
-  {
-    title: "Pokédemo",
-    description: "PokéDemo est une application web interactive créée avec Angular qui permet de découvrir et d'explorer des informations sur les Pokémon.",
-    technologies: ["Angular", "TypeScript", "CSS"],
-    imageUrl: "/pokedemo-app.png",
-    githubUrl:"https://github.com/elisia-kba/pokedemo",
-    liveUrl: "https://pokedemo.elisiakoumba.fr",
-  },
-  {
-    title: "Film list",
-    description: "Film List App est une petite application React qui permet de créer et gérer une liste de films. Elle contient également une page 'À propos' pour afficher des informations sur l'auteur. (En cours de développement)",
-    technologies: ["React", "TypeScript", "HTML", "CSS"],
-    imageUrl: "/film-app.png",
-    githubUrl:"https://github.com/elisia-kba/film-list-app",
-    liveUrl: "https://film-app.elisiakoumba.fr",
-  },
-  {
-    title: "Mastermind",
-    description: "J'ai développé une version web du célèbre jeu Mastermind en utilisant Python avec le framework Flask. Le jeu permet aux utilisateurs de jouer au Mastermind directement dans leur navigateur avec une interface moderne et intuitive.",
-    technologies: ["Python","Flask", "JavaScript", "HTML", "CSS"],
+    title: "Mastermind Web",
+    description: "Reproduction web du célèbre jeu Mastermind avec interface moderne et back-end Flask.",
+    technologies: ["Python", "Flask", "JavaScript", "HTML", "CSS"],
     imageUrl: "/mastermind-app.png",
-    githubUrl:"https://github.com/elisia-kba/mastermind",
+    githubUrl: "https://github.com/elisia-kba/mastermind",
     liveUrl: "https://mastermind.elisiakoumba.fr/",
+  },
+  {
+    title: "Chatbot Avatar",
+    description: "Assistant multilangue fournissant des adresses de lieux à Rennes via une interface conversationnelle.",
+    technologies: ["Scala", "HTML", "CSS"],
   },
 ];

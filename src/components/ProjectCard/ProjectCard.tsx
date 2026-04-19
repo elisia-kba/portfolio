@@ -12,17 +12,17 @@ export const ProjectCard: React.FC<Project> = ({
 }) => {
   return (
     <div className="project-card">
-      {imageUrl && (
-        <div className="img-container">
+      <div className="img-container">
+        {imageUrl ? (
           <a href={liveUrl || githubUrl} target="_blank" rel="noopener noreferrer">
-            <img
-              src={imageUrl}
-              alt={title}
-              className="project-card-img"
-            />
+            <img src={imageUrl} alt={title} className="project-card-img" />
           </a>
-        </div>
-      )}
+        ) : (
+          <div className="img-placeholder">
+            <span>{title.charAt(0)}</span>
+          </div>
+        )}
+      </div>
       <div className="project-card-content">
         <h3 className="project-card-title">{title}</h3>
         <p className="project-card-description">{description}</p>
