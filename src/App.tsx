@@ -85,7 +85,7 @@ const App: React.FC = () => {
                 <p className="indent"><span className="key">backend</span><span className="op">:</span> [<span className="str">"Django"</span>, <span className="str">"Node.js"</span>, <span className="str">"PostgreSQL"</span>]<span className="op">,</span></p>
                 <p className="indent"><span className="key">frontend</span><span className="op">:</span> [<span className="str">"React"</span>, <span className="str">"TypeScript"</span>, <span className="str">"Tailwind"</span>]<span className="op">,</span></p>
                 <p className="indent"><span className="key">devops</span><span className="op">:</span> [<span className="str">"Docker"</span>, <span className="str">"Git"</span>, <span className="str">"Redis"</span>]<span className="op">,</span></p>
-                <p className="indent"><span className="key">location</span><span className="op">:</span> <span className="str">"Rennes · Île-de-France"</span><span className="op">,</span></p>
+                <p className="indent"><span className="key">location</span><span className="op">:</span> <span className="str">"Rennes · Île-de-France · Nantes"</span><span className="op">,</span></p>
                 <p className="indent"><span className="key">status</span><span className="op">:</span> <span className="str open">"open to CDI"</span><span className="op">,</span></p>
                 <p>{'}'}</p>
               </div>
