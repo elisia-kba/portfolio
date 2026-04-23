@@ -12,7 +12,7 @@ const App: React.FC = () => {
 
   const handleNavigation = (section: Section) => {
     if (section === 'CV') {
-      window.location.href = '/cv_elisia_koumba.pdf';
+      window.open('/cv_elisia_koumba.pdf', '_blank', 'noopener,noreferrer');
     } else {
       setActiveSection(section);
     }
@@ -66,7 +66,7 @@ const App: React.FC = () => {
               <a href="https://github.com/elisia-kba" target="_blank" rel="noopener noreferrer" className="btn-outline">
                 GitHub
               </a>
-              <a href="/cv_elisia_koumba.pdf" className="btn-outline">
+              <a href="/cv_elisia_koumba.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline">
                 Voir le CV
               </a>
             </div>
