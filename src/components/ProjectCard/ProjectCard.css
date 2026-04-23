@@ -21,7 +21,7 @@
 
 .project-card .img-container img {
   width: 100%;
-  height: 180px;
+  height: 220px;
   object-fit: cover;
   object-position: center top;
   display: block;
@@ -31,7 +31,7 @@
 
 .img-placeholder {
   width: 100%;
-  height: 180px;
+  height: 220px;
   background: linear-gradient(135deg, #1a1f35 0%, #1e1a3a 50%, #0f1a2e 100%);
   display: flex;
   align-items: center;
@@ -67,14 +67,14 @@
 }
 
 .project-card-content {
-  padding: 20px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
 .project-card-title {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #f1f5f9;
   margin: 0 0 8px 0;
@@ -82,8 +82,8 @@
 }
 
 .project-card-description {
-  color: #64748b;
-  font-size: 0.85rem;
+  color: #cbd5e1;
+  font-size: 1rem;
   line-height: 1.65;
   margin: 0;
   flex-grow: 1;
@@ -97,11 +97,11 @@
 }
 
 .project-card-technologies span {
-  padding: 3px 10px;
+  padding: 4px 10px;
   background-color: rgba(99, 102, 241, 0.08);
   color: #818cf8;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 500;
   border: 1px solid rgba(99, 102, 241, 0.2);
   letter-spacing: 0.03em;
@@ -115,7 +115,7 @@
 }
 
 .project-card-link {
-  font-size: 0.78rem;
+  font-size: 0.92rem;
   font-weight: 500;
   color: #6366f1;
   text-decoration: none;
@@ -139,7 +139,20 @@
 }
 
 @media (max-width: 768px) {
+  .project-card .img-container img,
+  .img-placeholder {
+    height: 190px;
+  }
+
   .project-card-content {
-    padding: 16px;
+    padding: 18px;
+  }
+
+  .project-card-title {
+    font-size: 1.05rem;
+  }
+
+  .project-card-description {
+    font-size: 0.92rem;
   }
 }

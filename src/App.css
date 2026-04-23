@@ -4,8 +4,9 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background-color: #0f172a;
-  color: #e2e8f0;
+  background-color: #1e293b;
+  color: #f1f5f9;
+  font-size: 17px;
   min-height: 100vh;
   margin: 0;
   display: flex;
@@ -18,7 +19,7 @@ nav {
   width: 100%;
   top: 0;
   z-index: 50;
-  background: rgba(15, 23, 42, 0.85);
+  background: rgba(30, 41, 59, 0.88);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(99, 102, 241, 0.15);
 }
@@ -134,8 +135,8 @@ main {
 
 /* Terminal card */
 .terminal-card {
-  background: #0d1424;
-  border: 1px solid #1e2d45;
+  background: #1f2a3d;
+  border: 1px solid #334155;
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
@@ -143,7 +144,7 @@ main {
 }
 
 .terminal-bar {
-  background: #141e30;
+  background: #263449;
   padding: 10px 14px;
   display: flex;
   gap: 6px;
@@ -164,7 +165,7 @@ main {
 .terminal-body {
   padding: 20px 22px;
   font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   line-height: 1.9;
 }
 
@@ -193,7 +194,7 @@ main {
   background-color: rgba(99, 102, 241, 0.08);
   color: #a5b4fc;
   border-radius: 4px;
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   font-weight: 600;
   margin-bottom: 28px;
   letter-spacing: 0.1em;
@@ -229,7 +230,7 @@ main {
 }
 
 .hero-title {
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-size: clamp(1.15rem, 2.5vw, 1.35rem);
   color: #6366f1;
   font-weight: 500;
   margin: 0 0 10px 0;
@@ -237,8 +238,8 @@ main {
 }
 
 .hero-subtitle {
-  font-size: 0.875rem;
-  color: #475569;
+  font-size: 1rem;
+  color: #cbd5e1;
   margin: 0 0 24px 0;
 }
 
@@ -250,7 +251,7 @@ main {
 }
 
 .hero-roles span {
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   font-weight: 500;
   padding: 5px 14px;
   border-radius: 20px;
@@ -261,8 +262,8 @@ main {
 }
 
 .hero-description {
-  font-size: 1rem;
-  color: #94a3b8;
+  font-size: 1.1rem;
+  color: #e2e8f0;
   line-height: 1.75;
   margin: 0 0 36px 0;
 }
@@ -281,7 +282,7 @@ main {
   background: linear-gradient(135deg, #6366f1, #8b5cf6);
   color: white;
   border-radius: 6px;
-  font-size: 0.875rem;
+  font-size: 0.98rem;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s;
@@ -300,9 +301,9 @@ main {
   gap: 6px;
   padding: 10px 22px;
   border: 1px solid #334155;
-  color: #94a3b8;
+  color: #cbd5e1;
   border-radius: 6px;
-  font-size: 0.875rem;
+  font-size: 0.98rem;
   font-weight: 500;
   text-decoration: none;
   background: transparent;
@@ -322,7 +323,7 @@ main {
 }
 
 .experiences-section h2 {
-  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-size: clamp(1.45rem, 3vw, 2rem);
   font-weight: 700;
   color: #f1f5f9;
   margin: 0 0 6px 0;
@@ -364,14 +365,14 @@ main {
 }
 
 .experience-role {
-  font-size: 1rem;
+  font-size: 1.12rem;
   font-weight: 600;
   color: #f1f5f9;
   letter-spacing: -0.01em;
 }
 
 .experience-type-badge {
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 600;
   padding: 2px 8px;
   border-radius: 4px;
@@ -383,14 +384,14 @@ main {
 }
 
 .experience-period {
-  font-size: 0.78rem;
-  color: #475569;
+  font-size: 0.9rem;
+  color: #94a3b8;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
 
 .experience-company {
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #6366f1;
   font-weight: 500;
   margin: 0 0 14px 0;
@@ -404,8 +405,8 @@ main {
 
 .experience-bullets li {
   position: relative;
-  font-size: 0.85rem;
-  color: #64748b;
+  font-size: 0.98rem;
+  color: #cbd5e1;
   line-height: 1.65;
   margin-bottom: 6px;
 }
@@ -424,7 +425,7 @@ main {
 }
 
 .experience-stack span {
-  font-size: 0.7rem;
+  font-size: 0.82rem;
   font-weight: 500;
   padding: 2px 8px;
   border-radius: 4px;
@@ -441,7 +442,7 @@ main {
 }
 
 .projects-section h2 {
-  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-size: clamp(1.45rem, 3vw, 2rem);
   font-weight: 700;
   color: #f1f5f9;
   margin: 0 0 6px 0;
@@ -449,15 +450,15 @@ main {
 }
 
 .section-subtitle {
-  color: #475569;
-  font-size: 0.875rem;
+  color: #cbd5e1;
+  font-size: 1rem;
   margin: 0 0 36px 0;
 }
 
 .projects-grid {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 }
 
 .project-card-wrapper {
@@ -478,8 +479,8 @@ footer {
 }
 
 footer p {
-  color: #334155;
-  font-size: 0.8rem;
+  color: #cbd5e1;
+  font-size: 0.95rem;
   margin: 0;
 }
 
@@ -505,7 +506,7 @@ footer a:hover {
   }
 
   .terminal-body {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -517,5 +518,36 @@ footer a:hover {
 
   .nav-container {
     padding: 0 16px;
+  }
+
+  .projects-grid {
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1400px) {
+  .nav-container {
+    max-width: none;
+    padding: 0 64px;
+    height: 72px;
+  }
+
+  .logo-image {
+    height: 50px;
+  }
+
+  nav .nav-buttons {
+    gap: 12px;
+  }
+
+  nav .nav-buttons button {
+    font-size: 0.95rem;
+    padding: 10px 24px;
+    height: 40px;
+  }
+
+  main {
+    max-width: 1320px;
   }
 }
